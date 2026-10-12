@@ -3,286 +3,348 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SunFall Media | Ohio River Valley News</title>
+    <title>SunFall Media | Regional News, Podcast & Artist Platform</title>
     <meta
       name="description"
-      content="SunFall Media covers true crime, government accountability, unexplained mysteries, and regional culture across Indiana, Kentucky, and Ohio."
+      content="SunFall Media: Independent journalism covering true crime, government accountability, and unexplained mysteries. Home of Under The Sycamores podcast and emerging artist spotlight."
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="topbar">
-      <div class="container topbar-inner">
-        <p>Indiana • Kentucky • Ohio</p>
-        <div class="topbar-links">
-          <a href="#latest">Latest</a>
-          <a href="#coverage">Coverage</a>
-          <a href="#podcast">Podcast</a>
-        </div>
-      </div>
-    </div>
-
+    <!-- Navigation Header -->
     <header class="site-header">
-      <div class="container header-inner">
-        <a class="brand" href="#home" aria-label="SunFall Media home">
-          <span class="brand-mark">S</span>
-          <span class="brand-text">SunFall Media</span>
+      <div class="container navbar">
+        <a class="logo-link" href="#" aria-label="SunFall Media home">
+          <div class="logo-badge"></div>
+          <span class="logo-text">SunFall Media</span>
         </a>
 
-        <nav class="main-nav" aria-label="Main navigation">
-          <a href="#latest">Latest</a>
-          <a href="#features">Investigations</a>
-          <a href="#culture">Culture</a>
+        <nav class="main-nav">
+          <a href="#newsroom">Newsroom</a>
           <a href="#podcast">Podcast</a>
+          <a href="#artists">Artists</a>
           <a href="#about">About</a>
         </nav>
 
-        <a class="btn btn-primary" href="#connect">Subscribe</a>
+        <a class="cta-header" href="https://www.underthesycamores.org" target="_blank" rel="noreferrer">Listen</a>
       </div>
     </header>
 
-    <main id="home">
+    <main>
+      <!-- Hero Section -->
       <section class="hero">
-        <div class="container hero-grid">
-          <div class="hero-copy">
-            <p class="eyebrow">Independent regional reporting</p>
-            <h1>Stories that define the Ohio River Valley.</h1>
-            <p class="lede">
-              SunFall Media investigates the cases, decisions, and mysteries shaping our
-              communities—from true crime and government accountability to the unexplained
-              stories that refuse to fade.
-            </p>
-
-            <div class="hero-actions">
-              <a class="btn btn-primary" href="#latest">Read the latest</a>
-              <a class="btn btn-secondary" href="#podcast">Listen to Under The Sycamores</a>
-            </div>
-
-            <div class="hero-metrics">
-              <div>
-                <strong>3 states</strong>
-                <span>Regional coverage</span>
-              </div>
-              <div>
-                <strong>True crime</strong>
-                <span>Investigative focus</span>
-              </div>
-              <div>
-                <strong>Local voices</strong>
-                <span>Community storytelling</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="hero-visual" aria-label="SunFall Media hero visual">
-            <div class="photo-panel">
-              <div class="feature-card">
-                <p class="kicker">Featured</p>
-                <h2>Unseen stories from the river, the valley, and the margins.</h2>
-                <p>
-                  Reporting, interviews, and deep-dive narratives rooted in the people and
-                  places of Indiana, Kentucky, and Ohio.
-                </p>
-              </div>
-            </div>
+        <div class="hero-background" aria-hidden="true"></div>
+        <div class="container hero-inner">
+          <div class="hero-mark"></div>
+          <h1 class="hero-title">SunFall Media</h1>
+          <p class="hero-lead">
+            Independent journalism investigating true crime, government accountability, and unexplained mysteries<br />
+            across Indiana, Kentucky, and Ohio.
+          </p>
+          <div class="hero-nav">
+            <a class="btn-primary" href="#newsroom">Explore Newsroom</a>
+            <a class="btn-secondary" href="https://www.underthesycamores.org" target="_blank" rel="noreferrer">Under The Sycamores</a>
           </div>
         </div>
       </section>
 
-      <section class="section latest" id="latest">
+      <!-- Newsroom Section -->
+      <section class="section newsroom" id="newsroom">
         <div class="container">
-          <div class="section-head">
+          <div class="section-header">
             <div>
-              <p class="eyebrow dark">The latest</p>
-              <h2>Fresh reporting and sharp perspective.</h2>
+              <p class="section-kicker">Newsroom</p>
+              <h2 class="section-title">Stories that demand to be told</h2>
+              <p class="section-desc">Rigorous reporting on the cases, decisions, and mysteries that shape regional life.</p>
             </div>
-            <a href="#coverage" class="text-link">View all coverage</a>
+            <a href="#" class="link-arrow">View all articles →</a>
           </div>
 
-          <div class="story-grid story-grid-three">
-            <article class="story-card large">
-              <div class="story-image image-one"></div>
-              <div class="story-body">
-                <span class="tag">True crime</span>
-                <h3>Unanswered questions, hidden records, and the communities left behind.</h3>
-                <p>
-                  Investigative reporting that connects the dots between local systems, public
-                  silence, and unresolved violence.
-                </p>
+          <!-- Featured Story (Large) -->
+          <div class="featured-story">
+            <div class="featured-image featured-img-1" aria-label="Featured investigation"></div>
+            <div class="featured-content">
+              <span class="story-tag">Featured Investigation</span>
+              <h3>Unanswered questions, hidden records, and communities left behind</h3>
+              <p>
+                A deep-dive investigation connecting the dots between local systems, public silence, and unresolved violence affecting 
+                families across the Ohio River Valley.
+              </p>
+              <a href="#" class="link-read">Read the investigation →</a>
+            </div>
+          </div>
+
+          <!-- Story Grid (3-column) -->
+          <div class="stories-grid">
+            <article class="story-card">
+              <div class="story-image featured-img-2" aria-label="Story image"></div>
+              <div class="story-meta">
+                <span class="story-tag">Watchdog</span>
+                <span class="story-date">Oct 2026</span>
               </div>
+              <h3>When public trust fails, the cost reaches the doorstep.</h3>
+              <p>Reporting on institutional failures and accountability across public agencies in the region.</p>
             </article>
 
             <article class="story-card">
-              <div class="story-image image-two"></div>
-              <div class="story-body">
-                <span class="tag">Watchdog</span>
-                <h3>When public trust breaks, the cost lands at the doorsteps of everyday people.</h3>
+              <div class="story-image featured-img-3" aria-label="Story image"></div>
+              <div class="story-meta">
+                <span class="story-tag">Mysteries</span>
+                <span class="story-date">Oct 2026</span>
               </div>
+              <h3>The stories that still echo through the hollows and river towns.</h3>
+              <p>Investigating unexplained phenomena, local folklore, and the strange corners of regional history.</p>
             </article>
 
             <article class="story-card">
-              <div class="story-image image-three"></div>
-              <div class="story-body">
-                <span class="tag">Mysteries</span>
-                <h3>The stories that still echo through the hills, hollows, and river towns.</h3>
+              <div class="story-image featured-img-4" aria-label="Story image"></div>
+              <div class="story-meta">
+                <span class="story-tag">Analysis</span>
+                <span class="story-date">Oct 2026</span>
               </div>
+              <h3>Breaking down power, policy, and the people affected by decisions.</h3>
+              <p>Context-driven reporting that helps communities understand the choices shaping their lives.</p>
             </article>
           </div>
         </div>
       </section>
 
-      <section class="section features" id="features">
+      <!-- Coverage Pillars Section -->
+      <section class="section pillars">
         <div class="container">
-          <div class="section-head narrow">
-            <div>
-              <p class="eyebrow dark">What we cover</p>
-              <h2>Journalism built for the realities of the region.</h2>
+          <div class="section-header compact">
+            <p class="section-kicker">What we cover</p>
+            <h2 class="section-title">Journalism built on accountability</h2>
+          </div>
+
+          <div class="pillars-grid">
+            <article class="pillar-card">
+              <div class="pillar-number">01</div>
+              <h3>True Crime</h3>
+              <p>
+                Thoughtful, rigorous investigation of cases that deserve deeper attention—following evidence, 
+                context, and the human cost behind each story.
+              </p>
+            </article>
+
+            <article class="pillar-card">
+              <div class="pillar-number">02</div>
+              <h3>Government Accountability</h3>
+              <p>
+                Local watchdog reporting exposing institutional failures, public trust issues, and decisions 
+                that impact everyday people across the region.
+              </p>
+            </article>
+
+            <article class="pillar-card">
+              <div class="pillar-number">03</div>
+              <h3>Unexplained Mysteries</h3>
+              <p>
+                Investigations that blend journalism, folklore, and cultural history—exploring the strange, 
+                eerie, and unsettling stories that linger.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Podcast Section -->
+      <section class="section podcast-hero" id="podcast">
+        <div class="container podcast-container">
+          <div class="podcast-visual"></div>
+          
+          <div class="podcast-content">
+            <p class="section-kicker">Podcast</p>
+            <h2 class="section-title">Under The Sycamores</h2>
+            <p class="section-desc">
+              A storytelling and interview series bringing the mysterious, haunting, and deeply human stories 
+              of the Ohio River Valley into sharp focus.
+            </p>
+            <p>
+              Join host Jeremy for in-depth conversations with investigators, families, artists, and community 
+              members uncovering the truths that matter most.
+            </p>
+            
+            <div class="podcast-ctas">
+              <a class="btn-primary" href="https://www.underthesycamores.org" target="_blank" rel="noreferrer">Listen Now</a>
+              <a class="btn-secondary" href="#subscribe">Subscribe</a>
+            </div>
+
+            <div class="podcast-stats">
+              <div>
+                <strong>200+</strong>
+                <span>Episodes</span>
+              </div>
+              <div>
+                <strong>Listeners</strong>
+                <span>Across 3 States</span>
+              </div>
+              <div>
+                <strong>New</strong>
+                <span>Every Week</span>
+              </div>
             </div>
           </div>
-
-          <div class="feature-grid">
-            <article class="feature-box">
-              <div class="icon">01</div>
-              <h3>True crime</h3>
-              <p>
-                Thoughtful investigative storytelling that follows the evidence, the people,
-                and the cost of silence.
-              </p>
-            </article>
-
-            <article class="feature-box">
-              <div class="icon">02</div>
-              <h3>Government mishandling</h3>
-              <p>
-                Reporting on oversight, accountability, and the choices that shape public life
-                across the Ohio River Valley.
-              </p>
-            </article>
-
-            <article class="feature-box">
-              <div class="icon">03</div>
-              <h3>Unexplained mysteries</h3>
-              <p>
-                The strange, the eerie, and the unseen stories that stir curiosity, folklore,
-                and lasting intrigue.
-              </p>
-            </article>
-          </div>
         </div>
       </section>
 
-      <section class="section profile" id="coverage">
-        <div class="container profile-grid">
-          <div class="profile-image-wrap">
-            <div class="profile-image"></div>
-          </div>
-
-          <div class="profile-copy">
-            <p class="eyebrow dark">Our mission</p>
-            <h2>Reporting the stories that move communities.</h2>
-            <p>
-              SunFall Media brings together investigative journalism, regional storytelling,
-              and cultural reporting to serve communities across Indiana, Kentucky, and Ohio.
-              We believe local stories deserve depth, context, and the time to be told well.
-            </p>
-            <p>
-              Through our podcast, Substack, and social channels, we create space for difficult
-              truths, hidden histories, and public conversations that matter.
-            </p>
-            <a href="#connect" class="btn btn-dark">Connect with us</a>
-          </div>
-        </div>
-      </section>
-
-      <section class="section spotlight" id="culture">
+      <!-- Artist Platform Section -->
+      <section class="section artists" id="artists">
         <div class="container">
-          <div class="section-head">
+          <div class="section-header">
             <div>
-              <p class="eyebrow dark">Culture & creators</p>
-              <h2>Spotlighting the voices shaping tomorrow.</h2>
+              <p class="section-kicker">Creative Platform</p>
+              <h2 class="section-title">Spotlight for emerging voices</h2>
+              <p class="section-desc">A stage for up-and-coming writers, musicians, and visual artists building something meaningful.</p>
             </div>
-            <a href="#artists" class="text-link">Meet the artists</a>
+            <a href="#" class="link-arrow">Explore artist profiles →</a>
           </div>
 
-          <div class="story-grid story-grid-two">
-            <article class="story-card portrait-card">
-              <div class="story-image image-four"></div>
-              <div class="story-body">
-                <span class="tag">Interviews</span>
-                <h3>Conversations with emerging writers, musicians, and visual artists.</h3>
+          <div class="artists-grid">
+            <article class="artist-card featured">
+              <div class="artist-image featured-img-5" aria-label="Artist profile"></div>
+              <div class="artist-info">
+                <span class="artist-tag">Interview</span>
+                <h3>Conversations with creators building culture</h3>
                 <p>
-                  A platform for new voices looking to share their work, stories, and creative
-                  vision with a wider audience.
+                  In-depth interviews with emerging writers, musicians, visual artists, and storytellers 
+                  sharing their process, vision, and journey.
                 </p>
+                <a href="#" class="link-read">Read interview →</a>
               </div>
             </article>
 
-            <article class="story-card portrait-card">
-              <div class="story-image image-five"></div>
-              <div class="story-body">
-                <span class="tag">Creator showcase</span>
-                <h3>Supporting artists and storytellers who bring originality to the region.</h3>
-                <p>
-                  We’re building a space where up-and-coming creators can be heard, discovered,
-                  and celebrated.
-                </p>
+            <article class="artist-card">
+              <div class="artist-image featured-img-2" aria-label="Artist work showcase"></div>
+              <div class="artist-info">
+                <span class="artist-tag">Showcase</span>
+                <h3>Original work from regional talent</h3>
+                <p>Featuring portfolios, recordings, and creative projects from artists in our community.</p>
+              </div>
+            </article>
+
+            <article class="artist-card">
+              <div class="artist-image featured-img-3" aria-label="Artist collaboration"></div>
+              <div class="artist-info">
+                <span class="artist-tag">Community</span>
+                <h3>Building platforms for creative expression</h3>
+                <p>Events, collaborations, and projects connecting artists with audiences and opportunity.</p>
               </div>
             </article>
           </div>
         </div>
       </section>
 
-      <section class="section podcast" id="podcast">
-        <div class="container podcast-panel">
-          <div class="podcast-copy">
-            <p class="eyebrow">Podcast</p>
-            <h2>Under The Sycamores</h2>
+      <!-- About / Mission Section -->
+      <section class="section mission" id="about">
+        <div class="container mission-content">
+          <div class="mission-image"></div>
+          
+          <div class="mission-copy">
+            <p class="section-kicker">Our Mission</p>
+            <h2 class="section-title">Stories rooted in truth and community</h2>
+            
             <p>
-              A storytelling and interview series tracing the mysterious, the haunting, and the
-              deeply human stories of our region.
+              SunFall Media exists to tell the stories that communities need to know. We investigate cases 
+              others overlook, expose decisions made in silence, and explore the mysteries that linger in 
+              our collective memory.
             </p>
-            <div class="hero-actions compact">
-              <a class="btn btn-primary" href="#">Listen now</a>
-              <a class="btn btn-secondary light" href="#">Subscribe</a>
+
+            <p>
+              Through rigorous reporting, intimate storytelling, and a commitment to accountability, we build 
+              a newsroom that reflects the complexity, depth, and humanity of the Ohio River Valley.
+            </p>
+
+            <p>
+              Alongside our core journalism, we've created platforms for creative voices—artists, writers, 
+              and musicians shaping the cultural conversation. SunFall Media isn't just a newsroom. 
+              It's a home for stories that matter.
+            </p>
+
+            <div class="mission-stats">
+              <div class="stat">
+                <strong>Indiana • Kentucky • Ohio</strong>
+                <span>Regional focus</span>
+              </div>
+              <div class="stat">
+                <strong>Independent</strong>
+                <span>Community-supported</span>
+              </div>
+              <div class="stat">
+                <strong>Multiple Platforms</strong>
+                <span>Podcast • Newsletter • Social</span>
+              </div>
             </div>
           </div>
+        </div>
+      </section>
 
-          <div class="podcast-card">
-            <div class="podcast-badge">New episode</div>
-            <h3>River stories, hidden histories, and the voices behind them.</h3>
-            <p>Join us for in-depth conversations and investigative storytelling.</p>
+      <!-- CTA Section -->
+      <section class="section cta-final" id="subscribe">
+        <div class="container cta-content">
+          <h2>Stay connected to SunFall Media</h2>
+          <p>Get updates on investigations, podcast episodes, and artist spotlights</p>
+          <div class="cta-actions">
+            <a class="btn-primary" href="#">Subscribe to Newsletter</a>
+            <a class="btn-secondary" href="https://www.underthesycamores.org" target="_blank" rel="noreferrer">Follow the Podcast</a>
           </div>
         </div>
       </section>
     </main>
 
-    <footer class="site-footer" id="connect">
+    <!-- Footer -->
+    <footer class="site-footer">
       <div class="container footer-inner">
         <div class="footer-brand">
-          <a class="brand" href="#home" aria-label="SunFall Media home">
-            <span class="brand-mark">S</span>
-            <span class="brand-text">SunFall Media</span>
-          </a>
-          <p>Regional stories, public accountability, and creative voices from the Ohio River Valley.</p>
+          <div class="logo-badge"></div>
+          <span class="logo-text">SunFall Media</span>
+          <p>Regional journalism investigating the stories that shape the Ohio River Valley.</p>
         </div>
 
-        <div class="footer-links">
-          <a href="#latest">Latest</a>
-          <a href="#features">Investigations</a>
-          <a href="#podcast">Podcast</a>
-          <a href="#about">About</a>
+        <div class="footer-grid">
+          <div class="footer-column">
+            <h4>Newsroom</h4>
+            <ul>
+              <li><a href="#newsroom">Latest Articles</a></li>
+              <li><a href="#newsroom">Investigations</a></li>
+              <li><a href="#">Archive</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h4>Podcast</h4>
+            <ul>
+              <li><a href="https://www.underthesycamores.org" target="_blank" rel="noreferrer">Under The Sycamores</a></li>
+              <li><a href="#">Episodes</a></li>
+              <li><a href="#">Subscribe</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h4>Community</h4>
+            <ul>
+              <li><a href="#artists">Artist Platform</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h4>Connect</h4>
+            <ul>
+              <li><a href="#">Facebook</a></li>
+              <li><a href="#">Substack</a></li>
+              <li><a href="#">Email</a></li>
+            </ul>
+          </div>
         </div>
 
-        <div class="footer-socials">
-          <a href="#">Substack</a>
-          <a href="#">Facebook</a>
-          <a href="#">Contact</a>
+        <div class="footer-bottom">
+          <p>&copy; 2026 SunFall Media. All rights reserved.</p>
+          <p>Indiana • Kentucky • Ohio</p>
         </div>
       </div>
     </footer>

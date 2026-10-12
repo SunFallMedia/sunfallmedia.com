@@ -1001,6 +1001,7 @@ body {
 }
 
 .founder-bio h3,
+.founder-why h3,
 .founder-facts h3 {
   margin: 0 0 14px;
   font-family: "DM Serif Display", Georgia, serif;
@@ -1008,7 +1009,8 @@ body {
   font-weight: 400;
 }
 
-.founder-bio p { margin: 0 0 14px; color: var(--muted); }
+.founder-bio p,
+.founder-why p { margin: 0 0 14px; color: var(--muted); }
 
 .founder-facts {
   grid-column: 2;

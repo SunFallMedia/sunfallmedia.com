@@ -598,26 +598,12 @@ body {
 .logo-link { gap: 12px; }
 
 .logo-badge {
-  position: relative;
   display: inline-block;
-  width: 30px;
-  height: 30px;
-  flex: 0 0 30px;
-  border: 1px solid rgba(240, 184, 91, 0.75);
-  border-radius: 50%;
-  background: linear-gradient(155deg, #f2c46d 8%, #e28b56 56%, #b65350 100%);
-  box-shadow: 0 0 22px rgba(226, 139, 86, 0.2);
-}
-
-.logo-badge::after {
-  position: absolute;
-  right: -3px;
-  bottom: 3px;
-  left: -3px;
-  height: 10px;
-  border-top: 2px solid var(--bg);
-  background: linear-gradient(90deg, transparent 12%, var(--bg) 12% 20%, transparent 20% 34%, var(--bg) 34% 43%, transparent 43% 60%, var(--bg) 60% 69%, transparent 69%);
-  content: "";
+  width: 48px;
+  height: 48px;
+  flex: 0 0 48px;
+  object-fit: contain;
+  mix-blend-mode: lighten;
 }
 
 .logo-text {
@@ -1037,7 +1023,7 @@ body {
   .container { width: calc(100% - 40px); }
   .navbar { min-height: 0; gap: 12px; }
   .logo-text { font-size: 0.7rem; }
-  .logo-badge { width: 26px; height: 26px; flex-basis: 26px; }
+  .logo-badge { width: 40px; height: 40px; flex-basis: 40px; }
   .cta-header { min-height: 38px; padding: 0 13px; }
   .main-nav { justify-content: flex-start; gap: 24px; }
   .hero { min-height: 570px; padding: 62px 0; }

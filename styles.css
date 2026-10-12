@@ -701,7 +701,7 @@ body {
   background:
     linear-gradient(90deg, rgba(17, 23, 20, 0.96) 0%, rgba(17, 23, 20, 0.84) 42%, rgba(17, 23, 20, 0.22) 100%),
     linear-gradient(0deg, var(--bg) 0%, transparent 30%, rgba(17, 23, 20, 0.13) 75%, var(--bg) 100%),
-    url("https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=2200&q=85") center 51% / cover no-repeat;
+    url("https://images.unsplash.com/photo-1478737270239-2f02b77fc618?auto=format&fit=crop&w=2200&q=85") center 51% / cover no-repeat;
   opacity: 0.9;
 }
 
@@ -1043,7 +1043,7 @@ body {
     background-image:
       linear-gradient(90deg, rgba(17, 23, 20, 0.84), rgba(17, 23, 20, 0.46)),
       linear-gradient(0deg, var(--bg), transparent 50%, var(--bg)),
-      url("https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1200&q=85");
+      url("https://images.unsplash.com/photo-1478737270239-2f02b77fc618?auto=format&fit=crop&w=1200&q=85");
     background-position: 58% center;
   }
   .hero-title { font-size: clamp(4rem, 17vw, 6.5rem); }
